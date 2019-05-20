@@ -5,7 +5,7 @@ log_format = '%(asctime)s,%(filename)s,%(funcName)s,%(process)d,%(levelname)s,%(
 date_format = '%Y-%m-%d %H:%M:%S'
 
 # import datetime
-# logFileName = "{0:%Y%m%d%I%M%S}.log".format(datetime.datetime.now())
+# logFileName = "{0:%Y%m%d%H%M%S}.log".format(datetime.datetime.now())
 logFileName = "Sample.log"
 
 logger = logging.getLogger(__name__)
